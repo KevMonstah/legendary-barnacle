@@ -68,12 +68,12 @@ function HomePage() {
         </div>
 
         <div className="mt-6">
-          <a
-            href="/ideas"
+          <Link
+            to="/ideas"
             className="w-full text-center inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-5 py-2 rounded-md transition"
           >
             View All Ideas
-          </a>
+          </Link>
         </div>
       </section>
     </div>
